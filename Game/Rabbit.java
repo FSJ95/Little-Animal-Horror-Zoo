@@ -70,5 +70,10 @@ public class Rabbit {
      System.out.println("I am the Rabbit, i am now standing on square " + xPos + ", " + yPos + ".");
   }
 
+  public void printSentence()
+  {
+     System.out.println("Noooo, Please don't eat me!");
+  }
+
 
 }

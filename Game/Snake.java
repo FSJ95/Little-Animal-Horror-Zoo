@@ -68,4 +68,8 @@ public class Snake {
   public void printPosition(){
      System.out.println("I am the Snake, i am now standing on square " + xPos + ", " + yPos + ".");
   }
+
+  public void printSentence(){
+     System.out.println("Ahhhhhrr, I'm eating you! hahaha!");
+  }
 }

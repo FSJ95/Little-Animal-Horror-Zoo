@@ -57,7 +57,7 @@ public class Board {
         //If the snake is next to the rabbit, this if-statement will run.
         if ((((rabbit.getYPos() - 1) == snake.getYPos()) || ((rabbit.getYPos() + 1) == snake.getYPos()) || ((rabbit.getYPos()) == snake.getYPos())) && (((rabbit.getXPos() - 1) == snake.getXPos()) || ((rabbit.getXPos() + 1) == snake.getXPos()) || ((rabbit.getXPos()) == snake.getXPos())))
         {
-          System.out.println("Noooo, Please don't eat me!");
+          rabbit.printSentence();
         }
 
         //Give next move to the snake.
@@ -74,6 +74,6 @@ public class Board {
         turn = 0;
       }
     }
-    System.out.println("Ahhhhhrr, I'm eating you! hahaha!");
+    snake.printSentence();
   }
 }
